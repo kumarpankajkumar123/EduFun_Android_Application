@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_one"
+        tools:targetApi="31">
+        <activity
+            android:name=".Inintial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Bird_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Vegetable_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Number_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Fruit_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Flower_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Color_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Animal_New_Activity_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Z_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Y_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.X_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.W_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.V_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.U_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.T_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.S_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.R_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.Q_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.P_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.N_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.M_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.L_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.k_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.J_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.I_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.H_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.G_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.F_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.E_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.D_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.C_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.B_Class_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Letter_Name.A_classes_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Animal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bird_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Flower_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vegetable_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fruits_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Color_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Numbers_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Alphabet_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".first_Activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

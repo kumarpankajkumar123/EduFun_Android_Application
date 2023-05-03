@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Color_Activity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Colors Names"
+     android:textStyle="bold"
+     android:textSize="30sp"
+     android:fontFamily="@font/baloo_bhai"
+     android:textColor="#000"
+     android:layout_marginTop="20dp"></TextView>
+
+ <androidx.recyclerview.widget.RecyclerView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recycle_color"
+    tools:listitem="@layout/alphabet_design_recycle">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
