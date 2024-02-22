@@ -40,6 +40,7 @@ when any person clicked any Category then will move to those activity.
 # 2.a.Content Activity
 
 <img src="https://github.com/kumarpankajkumar123/EduFun_Android_Application/assets/119131154/2fa8f6a4-3c0c-46fa-b159-7525bd871b8d"  width="200" height="400" />
+
 # Functionality
 this is the third Activity. this Activity contains multiple **images** and **gif** and also **voice**.
 in backed i used **RecyclerView** and **Adaptor Class** which provides addition functionality like **scrollView** by default available.
